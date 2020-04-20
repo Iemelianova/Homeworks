@@ -24,7 +24,6 @@ public class Choir extends Vocals {
 		String singerss = Integer.toString(singers);
 		String arePerforming = singerss + " singers and some music group";
 		return arePerforming;
-
 	}
 
 }
