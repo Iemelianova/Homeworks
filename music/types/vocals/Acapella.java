@@ -19,7 +19,7 @@ public class Acapella extends Vocals implements ISoprano {
 	}
 
 	public String getSinger() {
-		return this.singer;
+		return this.singer; 
 	}
 
 	@Override
