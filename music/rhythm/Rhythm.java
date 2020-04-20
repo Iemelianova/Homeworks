@@ -17,6 +17,5 @@ public class Rhythm extends MusicEras {
 
 	public void printInfo() {
 		
-		
 	}
 }
