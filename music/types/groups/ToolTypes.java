@@ -11,7 +11,7 @@ public enum ToolTypes {
 
 	private String details = null;
 
-	public String getDetails() {
+	public String getDetails() { 
 		return this.details;
 	}
 }
