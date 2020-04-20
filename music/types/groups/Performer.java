@@ -7,7 +7,6 @@ public class Performer extends Types {
 	public String performerName = "default";
 
 	public Performer() {
-
 	}
 
 	public Performer(int century, String era, String genre, String performerName) {
