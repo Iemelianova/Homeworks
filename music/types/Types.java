@@ -15,7 +15,7 @@ public class Types extends MusicEras {
 		this.genre = genre;
 	}
 
-	@Override 
+	@Override
 	public void printInfo() {
 		System.out.println(century + "__" + era + "__" + genre);
 		
