@@ -14,8 +14,7 @@ public final class MusicGroups extends Types {
 		this.groupName = groupName;
 	}
 	
-	
-	public void printInfo() {
+		public void printInfo() {
 		System.out.println("Century: " + century);
 		System.out.println("Music era: " + era);
 		System.out.println("Music genre: " + genre);
