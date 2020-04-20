@@ -19,6 +19,5 @@ public class Vocals extends WayOfExecution {
 	public void printInfo() {
 		System.out.println(century + "__" + era + "__" + genre + "__" + vocalist);
 		
-
 	}
 }
