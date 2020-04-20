@@ -8,5 +8,4 @@ public interface ISoprano {
 
 		return "This composition is new!";
 	}
-
 }
