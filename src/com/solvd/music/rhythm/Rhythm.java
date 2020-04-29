@@ -1,10 +1,10 @@
-package com.solvd.music.rhythm;
+package music.rhythm;
 
-import com.solvd.music.MusicEras;
+import music.MusicEras;
 
 public class Rhythm extends MusicEras {
 
-	public String kind = "minor";
+	public String kind ;
 
 	public Rhythm() {
 

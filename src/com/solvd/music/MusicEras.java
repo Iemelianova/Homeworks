@@ -1,4 +1,4 @@
-package com.solvd.music;
+package music;
 
 public abstract class MusicEras {
 
@@ -15,6 +15,7 @@ public abstract class MusicEras {
 	}
 
 	public void printInfo() {
-	
+		System.out.println(century + "__" + era);
+
 	}
 }
