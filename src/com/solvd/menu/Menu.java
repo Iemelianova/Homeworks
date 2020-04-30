@@ -51,6 +51,7 @@ public class Menu {
 
 				case 3:
 					PerformerMenu.openPerformerMenu();
+						
 					break;
 
 				case 4:
@@ -78,15 +79,20 @@ public class Menu {
 					break;
 
 				case 8:
+						
+					ChoirMenu.removeFromChoirMenu();
 
 					break;
 
 				case 0:
+						
 					System.exit(0);
+						
 					break;
 
 				default:
 					System.out.println("Please, use numbers from 0 to 8.");
+						
 					break;
 				}
 
