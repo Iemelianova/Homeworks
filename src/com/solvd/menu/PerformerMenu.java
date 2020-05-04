@@ -5,7 +5,7 @@ import java.util.*;
 import exceptions.EmptyExc;
 import exceptions.FutureCenturyExc;
 import exceptions.PastCenturyExc;
-import lists.PerformerList;
+import lists.PerformerSet;
 import music.types.groups.Performer;
 
 public class PerformerMenu {
@@ -13,7 +13,7 @@ public class PerformerMenu {
 	public PerformerMenu() {
 	}
 
-	static PerformerList plist = new PerformerList();
+	static PerformerSet plist = new PerformerSet();
 
 	static Scanner scanp = new Scanner(System.in);
 	static Scanner scanp1 = new Scanner(System.in);

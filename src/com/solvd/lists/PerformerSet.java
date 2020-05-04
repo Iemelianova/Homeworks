@@ -5,10 +5,10 @@ import java.util.Set;
 
 import music.types.groups.Performer;
 
-public class PerformerList {
+public class PerformerSet {
 	Set<Performer> setOfPerformer;
 	
-	public PerformerList() {
+	public PerformerSet() {
 		setOfPerformer = new HashSet<Performer>();
 	}
 

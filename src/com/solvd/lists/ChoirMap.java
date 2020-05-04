@@ -5,10 +5,10 @@ import java.util.Map;
 
 import music.types.vocals.Choir;
 
-public class ChoirList {
+public class ChoirMap {
 	Map<String, Choir> mapOfChoir;
 
-	public ChoirList() {
+	public ChoirMap() {
 		mapOfChoir = new HashMap<String, Choir>();
 	}
 

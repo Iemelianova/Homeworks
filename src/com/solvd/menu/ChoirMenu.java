@@ -5,7 +5,7 @@ import java.util.*;
 import exceptions.EmptyExc;
 import exceptions.FutureCenturyExc;
 import exceptions.PastCenturyExc;
-import lists.ChoirList;
+import lists.ChoirMap;
 import music.types.vocals.Choir;
 
 public class ChoirMenu {
@@ -13,7 +13,7 @@ public class ChoirMenu {
 	public ChoirMenu() {
 	}
 
-	static ChoirList clist = new ChoirList();
+	static ChoirMap clist = new ChoirMap();
 
 	static Scanner scanc = new Scanner(System.in);
 	static Scanner scanc1 = new Scanner(System.in);

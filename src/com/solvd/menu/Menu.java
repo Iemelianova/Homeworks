@@ -1,26 +1,22 @@
 package menu;
 
-import java.util.*;
+import java.io.IOException;
+import java.util.InputMismatchException;
+import java.util.Scanner;
+import utils.WriteReadProp;
+import utils.WriteReadFile;
 
 import exceptions.EmptyExc;
 import exceptions.FutureCenturyExc;
 import exceptions.PastCenturyExc;
-import lists.AuthorList;
-import lists.ChoirList;
-import lists.MGroupList;
-import lists.PerformerList;
-import menu.AuthorMenu;
-import music.rhythm.Author;
-import music.types.groups.MusicGroups;
-import music.types.groups.Performer;
-import music.types.vocals.Choir;
+
 
 public class Menu {
 
 	public Menu() {
 	}
 
-	public void openMenu() throws PastCenturyExc, FutureCenturyExc, EmptyExc {
+	public void openMenu() throws PastCenturyExc, FutureCenturyExc, EmptyExc, IOException {
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Welcome to Music Library!");
 
@@ -39,7 +35,7 @@ public class Menu {
 				switch (adding) {
 				case 1:
 
-					AuthorMenu.openAuthorMenu();
+					AuthorMenu.openAuthorMenuF();
 
 					break;
 
@@ -51,6 +47,7 @@ public class Menu {
 
 				case 3:
 					PerformerMenu.openPerformerMenu();
+					
 					break;
 
 				case 4:
@@ -78,15 +75,21 @@ public class Menu {
 					break;
 
 				case 8:
+					
+					ChoirMenu.removeFromChoirMenu();
 
 					break;
 
 				case 0:
+					
 					System.exit(0);
+					
 					break;
 
 				default:
+					
 					System.out.println("Please, use numbers from 0 to 8.");
+					
 					break;
 				}
 
@@ -94,6 +97,10 @@ public class Menu {
 
 				System.out.println("Please, use numbers.");
 			} finally {
+				String pathprop = "E:\\IRA\\solvd\\HW\\\\HWDataProp.properties";
+				System.out.println("Here is info about our product:");
+				WriteReadProp.getProps(pathprop, "1");
+				WriteReadProp.getProps(pathprop, "2");
 				System.out.println("Have a nice day!");
 			}
 
