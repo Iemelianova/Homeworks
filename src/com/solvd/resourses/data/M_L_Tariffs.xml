@@ -1,0 +1,64 @@
+<music_library_tariffs>
+<subscribe_package>
+<basic>
+<basic_1>
+<name>Basic month</name>
+<duration>30 days</duration>
+<price>5$</price>
+<discount>0%</discount>
+</basic_1>
+<basic_3>
+<name>Basic for 3 month</name>
+<duration>90 days</duration>
+<price>12$</price>
+<discount>20%</discount>
+</basic_3>
+<basic_6>
+<name>Basic for 6 month</name>
+<duration>180 days</duration>
+<price>28$</price>
+<discount>40%</discount>
+</basic_6>
+</basic>
+<basic_plus>
+<basic_plus_1>
+<name>Basic month</name>
+<duration>30 days</duration>
+<price>10$</price>
+<discount>0%</discount>
+</basic_plus_1>
+<basic_plus_3>
+<name>Basic for 3 month</name>
+<duration>90 days</duration>
+<price>24$</price>
+<discount>20%</discount>
+</basic_plus_3>
+<basic_plus_6>
+<name>Basic for 6 month</name>
+<duration>180 days</duration>
+<price>48$</price>
+<discount>40%</discount>
+</basic_plus_6>
+</basic_plus>
+<premium>
+<premium_1>
+<name>Basic month</name>
+<duration>30 days</duration>
+<price>15$</price>
+<discount>0%</discount>
+</premium_1>
+<premium_3>
+<name>Basic for 3 month</name>
+<duration>90 days</duration>
+<price>36$</price>
+<discount>20%</discount>
+</premium_3>
+<premium_6>
+<name>Basic for 6 month</name>
+<duration>180 days</duration>
+<price>54$</price>
+<discount>40%</discount>
+</premium_6>
+</premium>
+</subscribe_package>
+</music_library_tariffs>

@@ -1,0 +1,26 @@
+<music_festivals>
+<info>
+<name>Roskilde Festival</name>
+<price>250€</price>
+<town>Roskilde</town>
+<country>Denmark</country>
+</info>
+<info>
+<name>Mad Сool Festival</name>
+<price>200€</price>
+<town>Madrid</town>
+<country>Spain</country>
+</info>
+<info>
+<name>Lollapalooza</name>
+<price>300$</price>
+<town>Chicago</town>
+<country>USA</country>
+</info>
+<info>
+<name>RockFest</name>
+<price>300€</price>
+<town>Tampere</town>
+<country>Finland</country>
+</info>
+</music_festivals>

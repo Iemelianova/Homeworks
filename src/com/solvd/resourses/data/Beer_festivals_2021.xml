@@ -1,0 +1,26 @@
+<beer_festivals>
+<info>
+<name>One More Beer Festival</name>
+<price>249zl</price>
+<town>Krakow</town>
+<country>Poland</country>
+</info>
+<info>
+<name>Octoberfest</name>
+<price>200€</price>
+<town>Munich</town>
+<country>Germany</country>
+</info>
+<info>
+<name>Borefts Beer Festival</name>
+<price>299€</price>
+<town>Bodegraven</town>
+<country>Netherlands</country>
+</info>
+<info>
+<name>Craft Beer Fest</name>
+<price>150grn per day</price>
+<town>Kiev</town>
+<country>Ukraine</country>
+</info>
+</music_festivals>

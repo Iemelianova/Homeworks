@@ -14,12 +14,11 @@ public class WriteReadProp {
 
 		try {
 			FileOutputStream outp = new FileOutputStream(pathprop);
-			prop.setProperty("1", "The music library was created on Java");
-			prop.setProperty("2", "You can add some info or find it here.");
+			prop.setProperty(key, value);
 			prop.store(outp, "");
 			outp.close();
 		} catch (IOException exc) {
-
+			exc.printStackTrace();
 		}
 	}
 
@@ -34,7 +33,7 @@ public class WriteReadProp {
 			inp.close();
 			return prop.getProperty(key);
 		} catch (IOException exc) {
-			
+			exc.printStackTrace();
 		}
 
 		return "";

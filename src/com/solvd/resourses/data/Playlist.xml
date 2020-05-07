@@ -1,0 +1,45 @@
+<playlist xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation = "Playlist.xsd">
+<music>
+<minor>
+<song_id>
+<performer_name>Billie Eilish</performer_name>
+<album>Burry a friend</album>
+<song>Burry a friend</song>
+<release_year>2019</release_year>
+<genre>pop</genre>
+</song_id>
+<song_id>
+<music_group>Nirvana</music_group>
+<performer_name>Kurt Cobain</performer_name>
+<album> MTV Unplugged in New York</album>
+<song>The Man Who Sold The World </song>
+<release_year>1994</release_year>
+<genre>grunge, alternative</genre>
+</song_id>
+<song_id>
+<performer_name>Stone Sour</performer_name>
+<album>Come What(ever) May</album>
+<song>Through The Glass</song>
+<release_year>2006</release_year>
+<genre>post-grunge, alternative</genre>
+</song_id>
+</minor>
+<major>
+<song_id>
+<music_group>Cypress Hill</music_group>
+<album>(Rap)Superstar</album>
+<song>Rock Superstar</song>
+<release_year>2000</release_year>
+<genre>hip-hop, rap</genre>
+</song_id>
+<song_id>
+<music_group>Red Hot Chili Peppers</music_group>
+<album>Californication</album>
+<song>Purple Stain</song>
+<release_year>1999</release_year>
+<genre>alternative</genre>
+</song_id>
+</major>
+</music>
+</playlist>

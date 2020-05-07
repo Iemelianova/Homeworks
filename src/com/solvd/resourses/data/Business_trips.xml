@@ -1,0 +1,33 @@
+<business_trips xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+xsi:noNamespaceSchemaLocation = "Trips.xsd">
+<employees>
+<inside_the_country>
+<trip_id>
+<name>Leila Simonova</name>
+<from>Chernivtsy</from>
+<to>Kiev</to>
+<transport>train</transport>
+<duration>P3D</duration>
+<date>2020/04/18</date>
+</trip_id>
+<trip_id>
+<name>Svetlana Savikova</name>
+<from>Kiev</from>
+<to>Chernivtsy</to>
+<transport>train</transport>
+<duration>P1D</duration>
+<date>2020/03/02</date>
+</trip_id>
+</inside_the_country>
+<outside_the_country>
+<trip_id>
+<name>Ien Grigorian</name>
+<from>Kiev</from>
+<to>Minsk</to>
+<transport>plain</transport>
+<duration>P3D</duration>
+<date>2020/03/06</date>
+</trip_id>
+</outside_the_country>
+</employees>
+</business_trips>

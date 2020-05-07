@@ -58,7 +58,7 @@ public class Menu {
 
 				case 5:
 
-					AuthorMenu.removeFromAuthorMenu();
+//					AuthorMenu.removeFromAuthorMenu();
 
 					break;
 
@@ -97,10 +97,7 @@ public class Menu {
 
 				System.out.println("Please, use numbers.");
 			} finally {
-				String pathprop = "E:\\IRA\\solvd\\HW\\\\HWDataProp.properties";
-				System.out.println("Here is info about our product:");
-				WriteReadProp.getProps(pathprop, "1");
-				WriteReadProp.getProps(pathprop, "2");
+				
 				System.out.println("Have a nice day!");
 			}
 

@@ -1,0 +1,30 @@
+<partners>
+<id001>
+<name>Paul Gringman</name>
+<company>Veselie</company>
+<phone>+60742245698</phone>
+<city>Krakow</city>
+<country>Poland</country>
+</id001>
+<id002>
+<name>Amanda Green</name>
+<company>Eclipse</company>
+<phone>+80127824518</phone>
+<city>Berlin</city>
+<country>Germany</country>
+</id002>
+<id003>
+<name>Boris Britva</name>
+<company>RusMus</company>
+<phone>+70394652287</phone>
+<city>Rostov-na-Donu</city>
+<country>Russia</country>
+</id003>
+<id004>
+<name>Eleonora Vanstein</name>
+<company>Ela Entertainment</company>
+<phone>+40982497358</phone>
+<city>Tel-Aviv</city>
+<country>Izrael</country>
+</id004>
+</partners>

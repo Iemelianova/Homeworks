@@ -1,0 +1,62 @@
+<info_workers>
+<company_branches>
+<kiev_branch>
+<manager>
+<id_001>
+<name>Svetlana Savikova</name>
+<email>sv.sav@gmail.com</email>
+<phone_number>+380994589223</phone_number>
+<adress>Grushevskogo str. 23/87, Kiev, Ukraine</adress>
+</id_001>
+</manager>
+<developer>
+<id_002>
+<name>Ien Grigorian</name>
+<email>ie.grig@gmail.com</email>
+<phone_number>+380953625789</phone_number>
+<adress>Minska str. 2/7, Kiev, Ukraine</adress>
+</id_002>
+<id_003>
+<name>Ilona Milevska</name>
+<email>ilona1998@gmail.com</email>
+<phone_number>+380664585654</phone_number>
+<adress>Shevchenko str. 14/31, Kiev, Ukraine</adress>
+</id_003>
+</developer>
+<qa>
+<id_004>
+<name>Dmitriy Osipov</name>
+<email>osip.dm@gmail.com</email>
+<phone_number>+380992563257</phone_number>
+<adress>Stefanika str. 3/18, Kiev, Ukraine</adress>
+</id_004>
+</qa>
+</kiev_branch>
+<chernivtsy_branch>
+<manager>
+<id_005>
+<name>Igor Moroz</name>
+<email>moroz_i@gmail.com</email>
+<phone_number>+380665489234</phone_number>
+<adress>Russkaia str. 31, Chernivtsy, Ukraine</adress>
+</id_005>
+</manager>
+<developer>
+<id_006>
+<name>Leila Simonova</name>
+<email>sim_leila@gmail.com</email>
+<phone_number>+38067027861552</phone_number>
+<adress>Bukovinska str. 48/2, Chernivtsy, Ukraine</adress>
+</id_006>
+</developer>
+<developer>
+<id_007>
+<name>Maxim Melnyk</name>
+<email>max_mel@gmail.com</email>
+<phone_number>+380660232088</phone_number>
+<adress>Polyova str. 4a, Chernivtsy, Ukraine</adress>
+</id_007>
+</developer>
+</chernivtsy_branch>
+</company_branches>
+</info_workers>

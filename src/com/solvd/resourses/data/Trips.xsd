@@ -1,0 +1,49 @@
+<xs:schema xmlns:xs = "http://www.w3.org/2001/XMLSchema">
+  <xs:element name="name" type="xs:string"/>
+  <xs:element name="from" type="xs:string"/>
+  <xs:element name="to" type="xs:string"/>
+  <xs:element name="transport" type="xs:string"/>
+  <xs:element name="duration" type="xs:duration"/>
+  <xs:element name="date" type="xs:date"/>
+  <xs:element name="trip_id">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="name"/>
+        <xs:element ref="from"/>
+        <xs:element ref="to"/>
+        <xs:element ref="transport"/>
+        <xs:element ref="duration"/>
+        <xs:element ref="date"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="inside_the_country">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="trip_id" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="outside_the_country">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="trip_id" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="employees">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="inside_the_country"/>
+        <xs:element ref="outside_the_country"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="business_trips">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="employees"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,22 @@
+<info_users>
+<users>
+<id_001>
+<user_name>Billie Blue</user_name>
+<email>bill1999@gmail.com</email>
+<region>UK</region>
+<registration_date>10/12/2019</registration_date>
+</id_001>
+<id_002>
+<user_name>Bogdan Smirnov</user_name>
+<email>bog_dan@mail.ru</email>
+<region>Russia</region>
+<registration_date>05/10/2019</registration_date>
+</id_002>
+<id_003>
+<user_name>Stella Samoilova</user_name>
+<email>stella007@gmail.com</email>
+<region>Ukraine</region>
+<registration_date>02/01/2019</registration_date>
+</id_003>
+</users>
+</info_users>
